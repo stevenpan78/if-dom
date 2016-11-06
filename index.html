@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div ng-controller="myController">
+        <div ng-if="truth1">
+            This is a paragraph.
+        </div>
+        </label>CHECKBOX
+        <input type="checkbox" ng-model="truth1">
+        <label>
+            <div class="fill"></div>
+            <div ng-if="truth2">
+                This is a paragraph.
+            </div>
+        </label>CHECKBOX
+        <input type="checkbox" ng-model="truth2">
+        <label>
+            <div class="fill"></div>
+            <div ng-if="truth3">
+                This is a paragraph.
+            </div>
+        </label>CHECKBOX
+        <input type="checkbox" ng-model="truth3">
+        <label>
+            <div class="fill"></div>
+            <div ng-if="truth4">
+                This is a paragraph.
+            </div>
+        </label>CHECKBOX
+        <input type="checkbox" ng-model="truth4">
+        <label>
+            <div class="fill"></div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>
